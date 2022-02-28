@@ -1,96 +1,62 @@
-* {
-    box-sizing:border-box;
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+html {
     font-family: 'Nunito', sans-serif;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+.nav {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
+.menu {
+    margin: 0 30px 0 0;
 }
 
-.brand-title {
-    font-size: 1.5rem;
-    margin: 1rem;
-    font-weight: lighter;
-}
-
-.navbar-links ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.navbar-links li {
-    list-style: none;
-}
-
-.navbar-links li a {
+.menu a {
     text-decoration: none;
-    color: white;
-    padding: 1rem;
-    display: block;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
 }
 
-.navbar-links li:hover {
-    background-color: lightgrey;
-}
-
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
+label {
+    margin: 0 30px 0 0;
+    font-size: 26px;
+    line-height: 70px;
     display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
 }
 
-.toggle-button .bar{
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
+#riki {
+    display: flex;
 }
 
-@media (max-width: 600px) {
-    .toggle-button {
-        display: flex;
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
     }
 
-    .navbar-links {
-        display: none;
-        width: 100%;
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links li {
+    .menu {
         text-align: center;
+        width: 100%;
+        display: none;
     }
 
-    .navbar-links li a {
-        padding: .5rem 1rem;
+    .menu a {
+        display: block;
     }
 
-    .navbar-links.active {
-        display: flex;
+    #toggle:checked + .menu {
+         display: block; 
     }
+
 }
-
