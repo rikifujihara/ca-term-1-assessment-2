@@ -26,23 +26,6 @@ html {
     line-height: 70px;
 }
 
-/* @media only screen and (max-width: 500px) {
-    label {
-        display: block;
-    }
-
-    .menu {
-        text-align: center;
-        width: 100%;
-        display: none;
-    }
-
-    .menu a {
-        display: block;
-    }
-
-} */
-
 .body-content {
 
     display: flex;
@@ -52,6 +35,21 @@ html {
     margin-top: 21px;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.body-content-container {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+}
+
+@media only screen and (min-width: 740px) {
+
+    .body-content-container {
+        display: flex;
+        align-items: center;
+        height: 80%;
+    }   
 }
 
 .riki {
@@ -91,3 +89,12 @@ html {
 /* .bio h1 span {
     color: rgb(255, 81, 0);
 } */
+
+@media only screen and (min-width: 1050px) {
+
+   .riki {
+       width: 40%;
+       max-width: none;
+   } 
+
+}
