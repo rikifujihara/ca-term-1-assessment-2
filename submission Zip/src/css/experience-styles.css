@@ -1,0 +1,155 @@
+/* General */
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 10vh;
+    line-height: 10vh;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid rgba(153, 153, 153, 0.726);
+    width: 100vw;
+}
+
+.menu {
+ display: flex;  
+ width: 100vw;
+ height: 10vh;
+ justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: #0077b5;
+}
+
+
+/* ---------------------Primary Content ---------------------*/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    width: 100%;
+    align-content: center;
+}
+
+/* Main Heading */
+.header-bio {
+    display: inline-block;
+    width: 50%;
+    min-width: 250px;
+    color: black;
+}
+
+.resume {
+    color: gray;
+}
+
+.header-bio h1 {
+    font-size: 3rem;
+}
+
+.header-bio h1 span {
+    color: #0077b5;
+}
+
+/* ------------------ Wordpress Experience ------------------ */
+
+.wordpress h2 {
+    font-size: 2rem;
+}
+
+.wordpress h2 span {
+    color: #f08914;
+}
+
+.wordpress {
+    display: inline-block;
+    width: 50%;
+    min-width: 250px;
+    color: black;
+}
+
+/* ------------------ Social Media Experience ------------------ */
+
+.social-media h2 {
+    font-size: 2rem;
+}
+
+.social-media h2 span {
+    color: #10d441;
+}
+
+.social-media {
+    display: inline-block;
+    width: 50%;
+    min-width: 250px;
+    color: black;
+}
+
+.social-media img {
+    width: 30%;
+    /* min-width: 200px; */
+}
+
+.social-media .gym-social-link {
+    color: white;
+}
+
+/* ------------------ Facebook Ads Experience ------------------ */
+
+.facebook-ads h2 {
+    font-size: 2rem;
+}
+
+.facebook-ads h2 span {
+    color: #0e6eeb;
+}
+
+.facebook-ads {
+    display: inline-block;
+    width: 50%;
+    min-width: 250px;
+    color: black;
+}
+
+.facebook-ads img {
+    width: 30%;
+    /* min-width: 200px; */
+}
+
+.facebook-ads .gym-social-link {
+    color: white;
+}
