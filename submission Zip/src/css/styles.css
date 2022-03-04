@@ -1,0 +1,78 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 10vh;
+    line-height: 10vh;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid rgba(153, 153, 153, 0.726);
+    width: 100vw;
+}
+
+.menu {
+ display: flex;  
+ width: 100vw;
+ height: 10vh;
+ justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    height: 80vh;
+    align-content: center;
+}
+
+.riki {
+    display: block;
+    width: 38%;
+    max-width: 400px;
+    min-width: 250px;
+    margin: 20px 20px 20px 20px;
+}
+
+.bio {
+    display: inline-block;
+    width: 50%;
+    min-width: 250px;
+    color: black;
+}
+
+.accounts {
+    color: gray;
+}
+
+.bio h1 span {
+    color: #0077b5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: #0077b5;
+}
