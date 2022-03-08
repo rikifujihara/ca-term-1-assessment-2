@@ -152,6 +152,19 @@ header h1 span {
   margin: 5px;
 }
 
+@media screen and (max-width: 600px) {
+
+  .squares {
+    justify-content: center;
+  }
+
+  .squares img {
+    display: flex;
+    width: 48%;
+    margin: 2px;
+  }
+}
+
 /* ------------------ Facebook Ads Experience ------------------ */
 
 .facebook-ads h2 {
