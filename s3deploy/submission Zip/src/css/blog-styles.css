@@ -17,22 +17,27 @@ nav {
     line-height: 10vh;
     display: flex;
     justify-content: center;
-    border-bottom: solid rgba(153, 153, 153, 0.726);
+    border-bottom: solid rgba(153, 153, 153, 0.726) 1px;
     width: 100vw;
+    background-color: #0077b5;
 }
 
 .menu {
- display: flex;  
- width: 100vw;
- height: 10vh;
- justify-content: center;
-}
-
+    display: flex;  
+    width: 100vw;
+    height: 10vh;
+    justify-content: center;
+   }
+   
 .menu a {
-    text-decoration: none;
-    color: gray;
-    margin: 0 10px;
-}
+       text-decoration: none;
+       color: white;
+       margin: 0 10px;
+   }
+   
+.menu a:visited {
+       color: white;
+   }
 
 ul {
     padding-left: 15px;
@@ -69,14 +74,6 @@ main {
     align-content: center;
 }
 
-/* Main Heading */
-/* .blog {
-    display: inline-block;
-    width: 50%;
-    min-width: 250px;
-    color: black;
-} */
-
 h1 {
     font-size: 3rem;
 }
@@ -85,7 +82,7 @@ h1 span {
     color: #0077b5;
 }
 
-/* Blog stuff */
+/* Blog Box Styles */
 
 .blog-container {
     display: flex;
@@ -152,11 +149,12 @@ h1 span {
 
 .blog-text a {
     color: gray;
+    transition: all 0.3s ease;
 }
 
 .blog-text a:hover {
     color: #0077b5;
-    transition: all ease 0.3s;
+    transition: 0.3s;
 }
 
 /* ------------------ Wordpress Experience ------------------ */
@@ -227,3 +225,36 @@ h1 span {
 .facebook-ads .gym-social-link {
     color: white;
 }
+
+footer {
+    height: 10vh;
+    line-height: 10vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: #0077b5;
+}
+
+.footer-content {
+    display: flex;  
+    width: 100vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .footer-content a {
+       text-decoration: none;
+       color: white;
+       margin: 0 10px;
+       display: flex;
+       align-items: center;
+   }
+   
+   .footer-content a:visited {
+       color: white;
+   }
+   
+   .footer-content a .footer-icons {
+       height: 25px;
+   }
