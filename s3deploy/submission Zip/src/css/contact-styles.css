@@ -1,137 +1,141 @@
-html, body {
-    font-family: 'Roboto', sans-serif;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+/* general */
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-    height: 10vh;
-    line-height: 10vh;
-    display: flex;
-    justify-content: center;
-    border-bottom: solid rgba(153, 153, 153, 0.726) 1px;
-    width: 100vw;
-    background-color: #0077b5;
+  height: 10vh;
+  line-height: 10vh;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid rgba(153, 153, 153, 0.726) 1px;
+  width: 100vw;
+  background-color: #0077b5;
 }
 
 .menu {
-    display: flex;  
-    width: 100vw;
-    height: 10vh;
-    justify-content: center;
-   }
-   
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+}
+
 .menu a {
-       text-decoration: none;
-       color: white;
-       margin: 0 10px;
-   }
-   
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
 .menu a:visited {
-       color: white;
-   }
+  color: white;
+}
+
+/* primary content */
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 21px;
-    height: 80vh;
-    width: 100%;
-    align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 21px;
+  height: 80vh;
+  width: 100%;
+  align-content: center;
 }
 
 .contact-me-content {
-    display: inline-block;
-    width: 80%;
-    min-width: 250px;
-    color: black;
-    text-align: center;
+  display: inline-block;
+  width: 80%;
+  min-width: 250px;
+  color: black;
+  text-align: center;
 }
 
 .contact-me-content h1 span {
-    color: #0077b5;
+  color: #0077b5;
 }
 
 a {
-    text-decoration: none;
-    color: gray;
+  text-decoration: none;
+  color: gray;
 }
 
 a:visited {
-    color: gray;
+  color: gray;
 }
 
 a:hover {
-    color: #0077b5;
+  color: #0077b5;
 }
 
 .accounts {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
 }
 
-.accounts .text-links{
-    padding-left: 0.35rem;
-    padding-right: 0.35rem;
+.accounts .text-links {
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
 }
 
 .professional-icons {
-    transition: all 0.3s ease;
-    display: inline;
-    height: 25px;
+  transition: all 0.3s ease;
+  display: inline;
+  height: 25px;
 }
 
 .professional-icons:hover {
-    transform: scale(1.2);
-    transition: 0.3s all ease;
+  transform: scale(1.2);
+  transition: 0.3s all ease;
 }
 
 @media screen and (min-width: 440px) {
-
-    .contact-me-content p {
-        font-size: 1.5em;
-    }
+  .contact-me-content p {
+    font-size: 1.5em;
+  }
 }
 
 footer {
-    height: 10vh;
-    line-height: 10vh;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    background-color: #0077b5;
+  height: 10vh;
+  line-height: 10vh;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: #0077b5;
 }
 
 .footer-content {
-    display: flex;  
-    width: 100vw;
-    height: 10vh;
-    justify-content: center;
-    align-items: center;
-   }
-   
-   .footer-content a {
-       text-decoration: none;
-       color: white;
-       margin: 0 10px;
-       display: flex;
-       align-items: center;
-   }
-   
-   .footer-content a:visited {
-       color: white;
-   }
-   
-   .footer-content a .footer-icons {
-       height: 25px;
-   }
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content a:visited {
+  color: white;
+}
+
+.footer-content a .footer-icons {
+  height: 25px;
+}

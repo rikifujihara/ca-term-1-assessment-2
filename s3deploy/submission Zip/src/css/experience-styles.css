@@ -1,198 +1,206 @@
 /* General */
 
-html, body {
-    font-family: 'Roboto', sans-serif;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-    height: 10vh;
-    line-height: 10vh;
-    display: flex;
-    justify-content: center;
-    border-bottom: solid rgba(153, 153, 153, 0.726) 1px;
-    width: 100vw;
-    background-color: #0077b5;
+  height: 10vh;
+  line-height: 10vh;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid rgba(153, 153, 153, 0.726) 1px;
+  width: 100vw;
+  background-color: #0077b5;
 }
 
 .menu {
-    display: flex;  
-    width: 100vw;
-    height: 10vh;
-    justify-content: center;
-   }
-   
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+}
+
 .menu a {
-       text-decoration: none;
-       color: white;
-       margin: 0 10px;
-   }
-   
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
 .menu a:visited {
-       color: white;
-   }
+  color: white;
+}
 
 ul {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 li {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 a {
-    text-decoration: none;
-    color: gray;
+  text-decoration: none;
+  color: gray;
 }
 
 a:visited {
-    color: gray;
+  color: gray;
 }
 
 a:hover {
-    color: #0077b5;
-    transition: all ease 0.3s;
+  color: #0077b5;
+  transition: all ease 0.3s;
 }
-
 
 /* ---------------------Primary Content ---------------------*/
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 21px;
-    width: 100%;
-    align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  width: 100%;
+  align-content: center;
 }
 
 /* Main Heading */
-.header-bio {
-    display: inline-block;
-    width: 50%;
-    min-width: 250px;
-    color: black;
+header {
+  display: inline-block;
+  width: 70%;
+  min-width: 250px;
+  color: black;
+  max-width: 600px;
 }
 
 .resume {
-    color: gray;
+  color: gray;
 }
 
-.header-bio h1 {
-    font-size: 3rem;
+header h1 {
+  font-size: 3rem;
 }
 
-.header-bio h1 span {
-    color: #0077b5;
+header h1 span {
+  color: #0077b5;
 }
 
 /* ------------------ Wordpress Experience ------------------ */
 
 .wordpress h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .wordpress h2 span {
-    color: #f08914;
+  color: #f08914;
 }
 
 .wordpress {
-    display: inline-block;
-    width: 50%;
-    min-width: 250px;
-    color: black;
+  display: inline-block;
+  width: 70%;
+  min-width: 250px;
+  color: black;
+  max-width: 600px;
 }
 
 /* ------------------ Social Media Experience ------------------ */
 
 .social-media h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .social-media h2 span {
-    color: #10d441;
+  color: #10d441;
 }
 
 .social-media {
-    display: inline-block;
-    width: 50%;
-    min-width: 250px;
-    color: black;
+  display: inline-block;
+  width: 70%;
+  min-width: 250px;
+  color: black;
+  max-width: 600px;
 }
 
 .social-media img {
-    width: 30%;
-    /* min-width: 200px; */
+  width: 30%;
+  /* min-width: 200px; */
 }
 
 .social-media .gym-social-link {
-    color: white;
+  color: white;
+}
+
+.squares {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.squares img {
+  display: flex;
+  margin: 5px;
 }
 
 /* ------------------ Facebook Ads Experience ------------------ */
 
 .facebook-ads h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .facebook-ads h2 span {
-    color: #0e6eeb;
+  color: #0e6eeb;
 }
 
 .facebook-ads {
-    display: inline-block;
-    width: 50%;
-    min-width: 250px;
-    color: black;
+  display: inline-block;
+  width: 70%;
+  min-width: 250px;
+  color: black;
+  max-width: 600px;
 }
 
-.facebook-ads img {
-    width: 30%;
-    /* min-width: 200px; */
-}
-
-.facebook-ads .gym-social-link {
-    color: white;
-}
+/* ------------ Footer -------------- */
 
 footer {
-    height: 10vh;
-    line-height: 10vh;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    background-color: #0077b5;
+  height: 10vh;
+  line-height: 10vh;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: #0077b5;
 }
 
 .footer-content {
-    display: flex;  
-    width: 100vw;
-    height: 10vh;
-    justify-content: center;
-    align-items: center;
-   }
-   
-   .footer-content a {
-       text-decoration: none;
-       color: white;
-       margin: 0 10px;
-       display: flex;
-       align-items: center;
-   }
-   
-   .footer-content a:visited {
-       color: white;
-   }
-   
-   .footer-content a .footer-icons {
-       height: 25px;
-   }
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content a:visited {
+  color: white;
+}
+
+.footer-content a .footer-icons {
+  height: 25px;
+}
