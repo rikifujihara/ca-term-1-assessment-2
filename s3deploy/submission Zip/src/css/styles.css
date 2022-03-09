@@ -13,6 +13,8 @@ body {
   padding: 0;
 }
 
+/* Component with text #1 */
+
 nav {
   height: 10vh;
   line-height: 10vh;
@@ -53,6 +55,7 @@ main {
   align-content: center;
 }
 
+/* graphical content #1 */
 .riki {
   display: block;
   width: 38%;
@@ -100,6 +103,7 @@ a:hover {
   padding-right: 0.35rem;
 }
 
+/* graphical content #2 */
 .professional-icons {
   transition: all 0.3s ease;
   display: inline;
@@ -112,6 +116,8 @@ a:hover {
 }
 
 /* footer */
+
+/* component with text-content #2 */
 
 footer {
   height: 10vh;
