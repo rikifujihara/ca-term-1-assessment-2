@@ -2,7 +2,7 @@
 
 ## Published portfolio website <a href="https://rikifujihara-web.s3.ap-southeast-2.amazonaws.com/submission+Zip/src/html/index.html">here</a>
 
-## Link to Github Repo <a href="https://github.com/rikifujihara">here</a>
+## Link to Github Repo <a href="https://github.com/rikifujihara/ca-term-1-assessment-2/tree/master/s3deploy/submission%20Zip">here</a>
 
 <br>
 
