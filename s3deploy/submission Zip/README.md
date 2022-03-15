@@ -9,6 +9,7 @@
 # Riki Fujihara Portfolio Website
 
 ## Purpose
+
 The purpose of this portfolio website is to showcase the relevant skills and experience of Riki Fujihara. The website will present him to potential employers as an IT professional.
 
 ## Functionality/features
