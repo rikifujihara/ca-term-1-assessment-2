@@ -156,6 +156,68 @@ h1 span {
   transition: 0.3s;
 }
 
+/* Blog Card Box Styles */
+
+
+.cards-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #ececec;
+  width: 350px;
+  margin: 20px;
+}
+
+.card-image-container {
+  width: 100%;
+}
+
+.card-image-container img {
+  width: 100%;
+}
+
+.container-for-text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.container-for-text span {
+  color: gray;
+}
+
+.container-for-text h2 {
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.container-for-text a h2 {
+  color: black;
+}
+
+.container-for-text a h2:hover {
+  color: #0077b5;
+}
+
+.container-for-text a span {
+  color: gray;
+}
+
+.container-for-text a span:hover {
+  color: #0077b5;
+}
+
+.container-for-text p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
 /* footer */
 
 footer {
